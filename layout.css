@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,
+ Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,
+ sans-serif;
+}
+#slideshow {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+#linklist {
+    list-style-type: none;
+    position: relative;
+    right: 17px;
+}
+.part_link {
+    text-decoration: none;
+    color: #8590a6;
+}
